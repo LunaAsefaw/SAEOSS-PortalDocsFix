@@ -1,0 +1,104 @@
+site_name: SAEOSS-Portal
+site_description: "The SAEOSS Portal has been proposed as a system of software components functioning together
+ as the national central earth observation geospatial repository, with a view to metadata and open 
+ geospatial API standards compliance as well as user impact maximization."
+site_author: "Kartoza"
+docs_dir: ./src
+site_dir: ./site
+repo_name: "SAEOSS-Portal"
+repo_url: "https://github.com/kartoza/SAEOSS-Portal"
+edit_uri: "https://github.com/kartoza/SAEOSS-Portal/blob/main/docs/"
+
+copyright: Kartoza and Contributors
+
+markdown_extensions:
+        - pymdownx.highlight:
+                  anchor_linenums: true
+        - pymdownx.inlinehilite
+        #- mdx_truly_sane_lists
+        - toc:
+                  permalink: true
+                   #slugify: !!python/name:pymdownx.slugs.slugify
+        - pymdownx.snippets:
+                  base_path: .
+        - admonition
+        - tables
+        - pymdownx.details
+        - pymdownx.caret
+        - pymdownx.keys
+        - pymdownx.mark
+        - pymdownx.tilde
+        - pymdownx.superfences:
+                  custom_fences:
+                          - name: mermaid
+                            class: mermaid
+                            format: !!python/name:pymdownx.superfences.fence_code_format
+        - pymdownx.emoji:
+                  emoji_generator: !!python/name:materialx.emoji.to_svg
+                  emoji_index: !!python/name:materialx.emoji.twemoji
+
+
+nav:
+        - Home:
+                - index.md
+                - Contributing: about/contributing.md
+                - Code of Conduct: about/code-of-conduct.md
+                - Running Instances: about/running-instances.md
+        - Users:
+                - user/index.md
+                - Quick Start: 
+                        - user/quickstart/index.md
+                - Guide:
+                        - user/guide/index.md
+                        - Disclaimer: about/disclaimer.md
+                        - License: about/license.md
+                - Manual: 
+                        - user/manual/index.md
+                        - Home Page: user/manual/home.md
+                        - Dashboard Page: user/manual/dashboard.md
+                        - Profile: user/manual/profile_page.md
+                        - Profile Settings Page: user/manual/profile_settings.md
+                        - Orgenisation: users/manual/orgenisasion.md
+                        - Metadata: user/manual/metadata.md
+                        - Map: user/manual/map.md
+                        - About: user/manual/about.md
+                        - Help: user/manual/help.md
+                        - "": user/manual/opening_issues.md
+        - Administrators:
+                - administrator/index.md
+                - Guide:
+                        - administrator/guide/index.md
+                - Manual:
+                        - administrator/manual/index.md
+        - Developers:
+                - developer/index.md
+                - Guide:
+                        - developer/guide/index.md
+                        - Architecture: developer/guide/architecture.md
+                        - Prerequisites: developer/guide/prerequisites.md
+                        - Cloning: developer/guide/cloning.md
+                        - IDE Setup: developer/guide/ide-setup.md
+                        - Configuration: developer/guide/configuration.md
+                        - Building: developer/guide/building.md
+                        - Design: developer/guide/design.md
+                        - Road Map: developer/guide/roadmap.md
+                        - Workflows: developer/guide/workflows.md
+                        # Pages to render but exclude from navigation
+                        - "": developer/guide/templates/bug-report-message-template.md
+                        - "": developer/guide/templates/pull-request-template.md 
+                        - "": developer/guide/templates/commit-message-convention.md
+                - Manual: developer/manual/index.md
+                - Documentation Writing: developer/documentation/index.md
+                - API:
+                        - developer/api/index.md
+                        - Reference: developer/api/manual/index.md
+                        - Guide: developer/api/guide/index.md
+                - License: about/license.md
+        - DevOps: 
+                - devops/index.md
+                - Guide: devops/guide/index.md
+                - Manual: devops/manual/index.md
+        - About:
+                - about/index.md
+                - License: about/license.md
+                - Code of Conduct: about/code-of-conduct.md
