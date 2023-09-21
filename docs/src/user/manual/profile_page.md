@@ -1,14 +1,14 @@
 ###### Previous Page: [Profile Settings](./profile_settings.md)
 
 # Profile Page
-The profile  page provides a preview of what you profilw ill look like when viewed by other users on the platform. Additionally it's also a collector for information regarding your profile. 
+The profile page provides a preview of what your profile will look like when viewed by other users on the platform. Additionally, it's also a collector for information regarding your profile. 
 
 This page is broken into 4 main sections:
 
 - **[Preview](#preview)**
 - **[Metadata Records](#metadata-records)**
 - **[Activity Stream](#activity-stream)**
-- **[Api Tokens](#api-tokens)**
+- **[API Tokens](#api-tokens)**
 
 ### Preview
 <p style="color: red;"> Complete </p>
@@ -22,7 +22,7 @@ This page is broken into 4 main sections:
 <p style="color: red;"> Complete </p>
 ![]()
 
-### Api Tokens
+### API Tokens
 <p style="color: red;"> Complete </p>
 ![]()
 
