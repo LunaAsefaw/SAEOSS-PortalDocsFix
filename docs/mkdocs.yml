@@ -63,6 +63,7 @@ nav:
                         - Map: user/manual/map.md
                         - About: user/manual/about.md
                         - Help: user/manual/help.md
+                        - Editor: user/manual/editor/editor.md
                         - "": user/manual/opening_issues.md
         - Administrators:
                 - administrator/index.md
